@@ -324,7 +324,10 @@ exports.exportFAQs = async (req, res) => {
 
         res.setHeader('Content-Type', 'application/json');
         res.setHeader('Content-Disposition', `attachment; filename=faqs-export-${Date.now()}.json`);
-        res.status(200).json(exportData);
+        res.status(200).json({
+            success: true,
+            data: exportData
+        });
 
     } catch (error) {
         res.status(500).json({
