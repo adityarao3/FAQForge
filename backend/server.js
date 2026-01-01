@@ -56,8 +56,8 @@ app.use((req, res) => {
     });
 });
 
-// Start server (only in development, Vercel handles this in production)
-if (process.env.NODE_ENV !== 'production') {
+// Start server (skip only for serverless environments like Vercel)
+if (!process.env.VERCEL) {
     const PORT = process.env.PORT || 5000;
     app.listen(PORT, () => {
         console.log(`🚀 Server running on port ${PORT}`);
@@ -65,5 +65,5 @@ if (process.env.NODE_ENV !== 'production') {
     });
 }
 
-// Export for Vercel serverless
+// Export for serverless environments
 module.exports = app;
