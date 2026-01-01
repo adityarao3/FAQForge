@@ -1,0 +1,46 @@
+{
+    "exportDate": "2026-01-01T10:30:00.000Z",
+    "totalFAQs": 5,
+    "faqs": [
+        {
+            "question": "What is FAQForge?",
+            "answer": "FAQForge is an intelligent web application that automatically crawls websites, extracts content, and generates contextual FAQs using advanced AI. It helps businesses create comprehensive FAQ sections without manual effort.",
+            "source": "https://example.com/about",
+            "published": true,
+            "confidence": 0.85,
+            "createdAt": "2026-01-01T09:00:00.000Z"
+        },
+        {
+            "question": "How does the web crawler work?",
+            "answer": "The web crawler uses Cheerio to parse HTML content from websites. It intelligently extracts headings, paragraphs, and FAQ-like sections while filtering out navigation, scripts, and footer content. The crawler respects depth limits and domain boundaries to ensure efficient crawling.",
+            "source": "https://example.com/features",
+            "published": true,
+            "confidence": 0.9,
+            "createdAt": "2026-01-01T09:05:00.000Z"
+        },
+        {
+            "question": "What AI model is used for FAQ generation?",
+            "answer": "FAQForge uses OpenAI's GPT-4o model to generate FAQs. The system is designed to generate answers strictly from the extracted website content, avoiding hallucination and ensuring factual accuracy. Each FAQ includes confidence scores and source citations.",
+            "source": "https://example.com/technology",
+            "published": true,
+            "confidence": 0.88,
+            "createdAt": "2026-01-01T09:10:00.000Z"
+        },
+        {
+            "question": "Can I edit the generated FAQs?",
+            "answer": "Yes! The FAQ Manager dashboard allows you to review, edit, and refine all generated FAQs. You can modify questions and answers, toggle publish status, and delete FAQs that don't meet your requirements. All edits are tracked in the system.",
+            "source": "https://example.com/features",
+            "published": true,
+            "confidence": 0.92,
+            "createdAt": "2026-01-01T09:15:00.000Z"
+        },
+        {
+            "question": "How do I export the FAQs?",
+            "answer": "FAQs can be exported as JSON files directly from the FAQ Manager. You can apply filters to export only published FAQs or FAQs from specific websites. The exported JSON includes all FAQ data along with metadata like source pages and confidence scores.",
+            "source": "https://example.com/documentation",
+            "published": true,
+            "confidence": 0.87,
+            "createdAt": "2026-01-01T09:20:00.000Z"
+        }
+    ]
+}
