@@ -4,6 +4,17 @@
 
 A production-ready MERN stack application that crawls websites, extracts content, and generates contextual FAQs using OpenAI's GPT models.
 
+## 🌐 Live Demo
+
+**Try it now!** The application is deployed and ready to use:
+
+- 🚀 **Frontend Application**: [https://faqforge-ui-app.onrender.com](https://faqforge-ui-app.onrender.com)
+- 🔧 **Backend API**: [https://faqforge.onrender.com](https://faqforge.onrender.com)
+- 💚 **API Health Check**: [https://faqforge.onrender.com/api/health](https://faqforge.onrender.com/api/health)
+
+> **Note**: The free tier on Render may take 30-60 seconds to wake up if the service has been idle.
+
+
 ## 🚀 Features
 
 - **Intelligent Web Crawling**: Extract content from any website with configurable depth and page limits

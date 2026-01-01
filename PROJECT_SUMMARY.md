@@ -113,8 +113,14 @@
 
 ## 🌐 Live Deployment
 
-- **Frontend**: https://faqforge-ui-app.onrender.com
-- **Backend API**: https://faqforge.onrender.com
+**The application is live and ready to use!**
+
+- 🚀 **Frontend Application**: [https://faqforge-ui-app.onrender.com](https://faqforge-ui-app.onrender.com)
+- 🔧 **Backend API**: [https://faqforge.onrender.com](https://faqforge.onrender.com)
+- 💚 **API Health Check**: [https://faqforge.onrender.com/api/health](https://faqforge.onrender.com/api/health)
+
+> **Note**: Hosted on Render's free tier. Services may take 30-60 seconds to wake up if idle.
+
 
 ## � Future Enhancements
 
