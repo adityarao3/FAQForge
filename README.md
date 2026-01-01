@@ -356,6 +356,25 @@ This ensures:
 - ✅ Factual accuracy
 - ✅ Proper citation
 
+## 🔄 AI Model Flexibility
+
+**Current Implementation**: This project currently uses **OpenAI's GPT models** (GPT-4/GPT-3.5) because I have an OpenAI API key readily available.
+
+**Claude Integration Available**: The application architecture is designed to be AI-agnostic. If you prefer to use **Claude (Anthropic)** or any other AI model, the integration is straightforward:
+
+1. Update the API client in `backend/services/openaiService.js`
+2. Adjust the prompt format to match Claude's requirements
+3. Update the environment variables with your Claude API key
+
+**Want to switch to Claude?** Just let me know, and I can easily integrate Claude API or any other AI provider you prefer! The core logic remains the same - only the API client needs to be swapped.
+
+### Supported AI Models (Easy to Integrate)
+- ✅ **OpenAI** (GPT-4, GPT-3.5) - Currently Active
+- ✅ **Claude** (Anthropic) - Ready to integrate
+- ✅ **Google Gemini** - Can be added
+- ✅ **Any other LLM API** - Flexible architecture
+
+
 ## 🧪 Sample FAQ Export
 
 ```json
